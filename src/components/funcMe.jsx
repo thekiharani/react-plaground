@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 
 const FuncMe = () => {
-
   const [counter, setCounter] = useState(0)
 
   return (
     <div className="flex justify-center">
-      
       <button
         className="bg-red-700 text-gray-50 px-4 py-2 rounded-l-md"
         onClick={() => setCounter((prev) => prev - 1)}
@@ -22,7 +20,6 @@ const FuncMe = () => {
       >
         +
       </button>
-
     </div>
   )
 }
